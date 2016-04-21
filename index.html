@@ -11,31 +11,33 @@
         <div class="logo logo-index">
           <img src="#" width="200" height="50" alt="Glaccy Shop">
         </div>
-        <nav class="navigation">
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a href="catalog.html">Каталог</a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="catalog.html">Каталог</a>
             </li>
-            <li class="navigation-item">
-              <a href="#">Доставка и оплата</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Доставка и оплата</a>
             </li>
-            <li class="navigation-item">
-              <a href="#">О Компании</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О Компании</a>
             </li>
           </ul>
         </nav>
-        <div class="search">
-          <a class="btn search-link" href="#">Поиск</a>
-        </div>
-        <div class="user">
-          <a class="btn user-login" href="#">Вход</a>
-        </div>
-        <div class="cart">
-          <a class="btn cart-link" href="#">Корзина</a>
-        </div>
-        <div class="worktime-phone-block">
-          <p class="worktime-phone-block-worktime">С 10 до 20, ежедневно</p>
-          <p class="worktime-phone-block-phone">
+		<div class="user-block">
+          <div class="search">
+            <a class="btn search-link" href="#">Поиск</a>
+          </div>
+          <div class="user">
+            <a class="btn user-login" href="#">Вход</a>
+          </div>
+          <div class="cart">
+            <a class="btn cart-link" href="#">Корзина</a>
+          </div>
+		</div>
+        <div class="work-block">
+          <p class="work-block-time">С 10 до 20, ежедневно</p>
+          <p class="work-block-phone">
             <a href="#">8 812 450-25-25</a>
           </p>
         </div>
@@ -43,15 +45,17 @@
     </header>
     <main class="container">
       <div class="slider">
-        <label class="slider-btn">
-          <input type="radio" name="slider" checked>
-        </label>
-        <label class="slider-btn">
-          <input type="radio" name="slider">
-        </label>
-        <label class="slider-btn">
-          <input type="radio" name="slider">
-        </label>
+	    <div class="slider-block">
+          <label class="slider-btn">
+            <input type="radio" name="slider" checked>
+          </label>
+          <label class="slider-btn">
+            <input type="radio" name="slider">
+          </label>
+          <label class="slider-btn">
+            <input type="radio" name="slider">
+          </label>
+		</div>
         <section class="main-offer">
           <div class="main-offer-image">
             <img src="#" width="400" height="400" alt="product">
@@ -60,59 +64,59 @@
           <a class="btn btn--main-offer" href="#">Давайте оба!</a>
         </section>
       </div>
-      <div class="content content-offer">
+      <article class="content content-offer">
         <h2 class="content-title content-title-offer">Малинка даром!</h2>
         <p class="content-description content-description-offer">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малиного варенья бесплатно.</p>
         <a class="btn content-btn content-btn-offer" href="#">Хочу варенье!</a>
-      </div>
-      <div class="content content-offer">
+      </article>
+      <article class="content content-offer">
         <h2 class="content-title content-title-offer">Шоколадки даром!</h2>
         <p class="content-description content-description-offer">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
         <a class="btn content-btn content-btn-offer" href="#">Хочу шоколадки!</a>
-      </div>
+      </article>
       <section class="products">
         <article class="product product-hit">
           <div class="product-image">
             <img src="#" width="150" height="150" alt="">
           </div>
-          <p class="product-price">310&#8381;<span>/кг</span></p>
-          <p class="product-title">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+          <p class="product-price">310<span class="rub">&#8381;</span><span class="weight">/кг</span></p>
+          <h3>Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
         </article>
         <article class="product product-hit">
           <div class="product-image">
             <img src="#" width="150" height="150" alt="">
           </div>
-          <p class="product-price">380&#8381;<span>/кг</span></p>
-          <p class="product-title">Сливочно-кофейное с кусочками шоколада</p>
+          <p class="product-price">380<span class="rub">&#8381;</span><span class="weight">/кг</span></p>
+          <h3>Сливочно-кофейное с кусочками шоколада</h3>
         </article>
         <article class="product product-hit">
           <div class="product-image">
             <img src="#" width="150" height="150" alt="">
           </div>
-          <p class="product-price">355&#8381;<span>/кг</span></p>
-          <p class="product-title">Сливочно-клубничное с присыпкой из белого шоколада</p>
+          <p class="product-price">355<span class="rub">&#8381;</span><span class="weight">/кг</span></p>
+          <h3>Сливочно-клубничное с присыпкой из белого шоколада</h3>
         </article>
         <article class="product product-hit">
           <div class="product-image">
             <img src="#" width="150" height="150" alt="">
           </div>
-          <p class="product-price">415&#8381;<span>/кг</span></p>
-          <p class="product-title">Сливочное крем-брюле с карамельной подливкой</p>
+          <p class="product-price">415<span class="rub">&#8381;</span><span class="weight">/кг</span></p>
+          <h3>Сливочное крем-брюле с карамельной подливкой</h3>
         </article>
       </section>
       <section class="about">
         <h2 class="about-title">Магазин Глейси - это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h2>
         <ul class="about-list">
-          <li class="about-item">
+          <li class="about-item ice">
             <p>Всё наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
           </li>
-          <li class="about-item">
+          <li class="about-item cow">
             <p>Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
           </li>
-          <li class="about-item">
+          <li class="about-item leaf">
             <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
           </li>
-          <li class="about-item">
+          <li class="about-item temp">
             <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не даёт мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.</p>
           </li>
         </ul>
@@ -146,25 +150,35 @@
       </section>
     </main>
     <footer>
-      <section class="social">
-        <a class="social-btn social-btn-twitter" href="#">Twitter</a>
-        <a class="social-btn social-btn-instagram" href="#">Instagram</a>
-        <a class="social-btn social-btn-facebook" href="#">Facebook</a>
-        <a class="social-btn social-btn-vk" href="#">Vkontakte</a>
-      </section>
+      <div class="social">
+	    <ul class="social-list">
+		  <li class="social-item">
+            <a class="social-btn social-btn-twitter" href="#">Twitter</a>
+	      </li>
+		  <li class="social-item">
+            <a class="social-btn social-btn-instagram" href="#">Instagram</a>
+		  </li>
+		  <li class="social-item">
+            <a class="social-btn social-btn-facebook" href="#">Facebook</a>
+		  </li>
+	      <li class="social-item">
+            <a class="social-btn social-btn-vk" href="#">Vkontakte</a>
+		  </li>
+		</ul>
+      </div>
       <section class="footer-menu">
         <ul class="footer-menu-list">
           <li class="footer-menu-item">
-            <a href="#">Для поставщиков</a>
+            <a class="footer-menu-link" href="#">Для поставщиков</a>
           </li>
           <li class="footer-menu-item">
-            <a href="#">Наши документы</a>
+            <a class="footer-menu-link" href="#">Наши документы</a>
           </li>
           <li class="footer-menu-item">
-            <a href="#">О производстве</a>
+            <a class="footer-menu-link" href="#">О производстве</a>
           </li>
           <li class="footer-menu-item">
-            <a href="#">Экологические стандарты</a>
+            <a class="footer-menu-link" href="#">Экологические стандарты</a>
           </li>
         </ul>
       </section>
